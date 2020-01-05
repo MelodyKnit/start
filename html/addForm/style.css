@@ -1,5 +1,5 @@
 body {
-    font-size: 20px;
+    font-size: 18px;
     font-family: uxingme, Helvetica, Arial, "Open Sans", Arial, 'PingFang SC', 'Hiragino Sans GB', 'Source Han Sans CN', Roboto, 'Microsoft Yahei', sans-serif;
 }
 
@@ -21,6 +21,7 @@ main .forms form {
 
 main .forms td {
     padding: 5px;
+    white-space: nowrap;
 }
 
 main .forms table {
