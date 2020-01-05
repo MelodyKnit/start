@@ -1,0 +1,60 @@
+body {
+    font-size: 20px;
+    font-family: uxingme, Helvetica, Arial, "Open Sans", Arial, 'PingFang SC', 'Hiragino Sans GB', 'Source Han Sans CN', Roboto, 'Microsoft Yahei', sans-serif;
+}
+
+main .forms {
+    top: 45%;
+    left: 50%;
+    width: 95%;
+    max-width: 600px;
+    position: absolute;
+    border-radius: 25px;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+main .forms form {
+    padding: 20px 30px;
+}
+
+main .forms td {
+    padding: 5px;
+}
+
+main .forms table {
+    margin: 0 auto;
+}
+
+main .forms input[type="text"] {
+    height: 25px;
+}
+
+main .forms .sub,
+main .forms textarea,
+main .forms input[type="text"] {
+    padding: 0;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+main .forms textarea,
+main .forms input[type="text"] {
+    float: left;
+    margin: 0;
+    width: 100%;
+    font-size: 20px;
+    max-width: 300px;
+    border-bottom: 1px solid black;
+}
+
+main .forms .sub {
+    color: white;
+    width: 60%;
+    height: 30px;
+    margin-top: 20px;
+    max-width: 500px;
+    background-color: rgba(91, 119, 243, 0.95);
+}

@@ -1,0 +1,89 @@
+html,
+body,
+footer,
+.seacrh {
+    width: 100%;
+}
+
+html,
+body,
+.search .txt,
+.search .sub,
+.animePush img {
+    height: 100%;
+}
+
+body {
+    font-size: 18px;
+    font-family: arial, sans-serif;
+    background-image: url(../image/bg2.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+body {
+    text-align: center;
+}
+
+body,
+.search .search_switch {
+    position: relative;
+}
+
+.switch {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+main .add,
+.search {
+    margin: 0 auto;
+}
+
+body,
+.search .txt,
+.search .sub,
+.search .search_switch {
+    margin: 0;
+}
+
+ul,
+.search .txt,
+.search .sub {
+    padding: 0;
+}
+
+.animePush,
+.more ul li,
+.more ul li p {
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.animePush,
+.more ul li div,
+.animePush img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.search .txt,
+.search .sub {
+    border: none;
+}
+
+.animePush,
+.search .search_switch,
+.search .sub,
+.more ul li {
+    cursor: pointer;
+}

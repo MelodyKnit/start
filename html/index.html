@@ -5,32 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>考试答案查询</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="english.js"></script>
-    <script src="get.js"></script>
+    <meta name="theme-color" content="black" />
+    <meta name="msapplication-navbutton-color" content="#536fd0">
+    <link rel="icon" href="image/cat_48.png">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="/style/media.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/hover.css">
+    <script src="script/script.js"></script>
+    <script src="script/anime.js"></script>
+    <title>ACG Search</title>
 </head>
 
 <body>
     <header>
-        <section class="search">
-            <select name="type1" id="type1" class="types">
-                <option value="english">英语</option>
-            </select>
-            <select name="type2" id="type2" class="types">
-                <option value="ec">翻译</option>
-                <option value="radio">单选</option>
-            </select>
-            <input type="text" class="txt" placeholder="直接输入题目自动查询">
-        </section>
     </header>
     <main>
-        <section class="text"></section>
+        <section class="app">
+            <img src="image/cat_128.png">
+            <section class="search">
+                <input type="checkbox" id="switch" class="switch">
+                <label for="switch" class="switch_over"></label>
+                <input type="text" class="txt" placeholder="Anime Search">
+                <button class="sub">
+                    <img src="image/open.png" class="icon">
+                </button>
+            </section>
+            <script src="script/search.js"></script>
+        </section>
+        <section class="more">
+            <ul></ul>
+        </section>
+        <script src="script/more.js"></script>
     </main>
-    <footer></footer>
-    <script>
-        new getText();
-    </script>
+    <footer>
+        <a href="addForm/index.html" target="_blank">
+            <div class="animePush">
+                <img src="image/up.png" title="上传">
+            </div>
+        </a>
+    </footer>
 </body>
 
 </html>

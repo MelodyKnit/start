@@ -1,0 +1,33 @@
+.more ul li:hover {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.more ul li:hover p {
+    background: none;
+}
+
+.animePush:hover {
+    background: white;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+.search .search_switch li:hover {
+    background: white;
+}
+
+.switch:checked~.switch_over .search_switch {
+    display: block;
+    box-shadow: inset;
+    max-height: 1920px;
+}
+
+
+/* .switch:checked~.switch_over .search_switch li {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
+} */

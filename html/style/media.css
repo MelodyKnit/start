@@ -1,0 +1,5 @@
+@media(max-width:800px) {
+    body {
+        background-image: url(../image/abg1.jpg);
+    }
+}
